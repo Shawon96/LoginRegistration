@@ -17,5 +17,9 @@ namespace LoginRegistration
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+        //public void Session_start()
+        //{
+
+        //}
     }
 }
