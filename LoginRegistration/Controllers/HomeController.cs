@@ -26,5 +26,23 @@ namespace LoginRegistration.Controllers
 
             return View();
         }
+        public ActionResult Index1()
+        {
+            return View();
+        }
+
+        public ActionResult About1()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult Contact1()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
