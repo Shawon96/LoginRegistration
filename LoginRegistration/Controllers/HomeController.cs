@@ -26,8 +26,5 @@ namespace LoginRegistration.Controllers
 
             return View();
         }
-      
-
-
     }
 }
